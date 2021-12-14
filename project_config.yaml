@@ -1,0 +1,43 @@
+root_folder: machine-learning-7236723
+
+mongodb:
+  is_cloud: 0
+  user_name: Avnish
+  password: OtAAp629
+  url: mongodb+srv://{0}:{1}@cluster0.5fvxl.mongodb.net/<dbname>?retryWrites=true&w=majority
+
+
+cloud_storage:
+  azure_blob_storage:
+    connection_str: DefaultEndpointsProtocol=https;AccountName=ineuroncloudstorage;AccountKey=3/iuZ2ZZYj49tdV4l06dGjSReUvcPmP26dcu7u0RRE7hC5KmQMBr3x5Ar3a0zSbzlI/4Jv+JRk51SVuNNA2BTg==;EndpointSuffix=core.windows.net
+  aws_s3_bucket:
+    name: aws_access_key
+    Access Key ID: AKIAQLOZZIL6AO6IOTMP
+    Secret Access Key: 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
+    description: AWS credentials
+
+  gcp: gcp.json
+    
+watcher_checkpoint_storage_account_connection_str:
+  connection_str: DefaultEndpointsProtocol=https;AccountName=storageaccountrgai1a757;AccountKey=j4TYtRYwIDyUNL4lKXXIfYgCftrTbJPhPHC8i/j66XSf6s81ruCaQqDnjh5WDMjrqqc4hulvZ8wxcYQb8KfukA==;EndpointSuffix=core.windows.net
+
+azure_input_file_storage_connection_str:
+  connection_str: DefaultEndpointsProtocol=https;AccountName=inputfilestorage;AccountKey=u2jUt3DLgsPiZO8S7kZ1yk4B7FJ6gCtdTeckaige1AXTnyPA1zby1w0n6HUi/2cdOAoo5E1jXrEeofyI6UDtFw==;EndpointSuffix=core.windows.net
+
+event_hub_name_space:
+  connection_str: Endpoint=sb://avnish327030.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=BwK0zozJe+Oz46F5BgpHUtq5zkzqMKCzPdc2kOg2WW8=
+
+
+session:
+  secret-key: ec6935d1-0e2c-4998-b7ed-809e8cb0fcda
+
+user_detail:
+  email_id: avnish@ineuron.ai
+  role_id: 1
+
+email_config:
+  sender_email_id: yadav.tara.avnish@gmail.com
+  passkey: ysdxtzfrnnugdqke
+  receiver_email_id:
+    - yadav.tara.avnish@gmail.com
+    - anishyadav7045075175@gmail.com
