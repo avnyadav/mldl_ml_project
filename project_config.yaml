@@ -1,7 +1,7 @@
 root_folder: machine-learning-7236723
 
 mongodb:
-  is_cloud: 0
+  is_cloud: 1
   user_name: Avnish
   password: OtAAp629
   url: mongodb+srv://{0}:{1}@cluster0.5fvxl.mongodb.net/<dbname>?retryWrites=true&w=majority
@@ -9,7 +9,7 @@ mongodb:
 
 cloud_storage:
   azure_blob_storage:
-    connection_str: DefaultEndpointsProtocol=https;AccountName=ineuroncloudstorage;AccountKey=3/iuZ2ZZYj49tdV4l06dGjSReUvcPmP26dcu7u0RRE7hC5KmQMBr3x5Ar3a0zSbzlI/4Jv+JRk51SVuNNA2BTg==;EndpointSuffix=core.windows.net
+    connection_str: DefaultEndpointsProtocol=https;AccountName=ineuronstorage327030;AccountKey=EoKopRrOYEPLQl8K2hxyvh2mxR9Z0cLkFkiiGfkAB1FbfOScZdiUFgW7/kr9TBFS0a3uUgfOT/J28w+xv6tbtw==;EndpointSuffix=core.windows.net
   aws_s3_bucket:
     name: aws_access_key
     Access Key ID: AKIAQLOZZIL6AO6IOTMP
@@ -37,7 +37,7 @@ user_detail:
 
 email_config:
   sender_email_id: yadav.tara.avnish@gmail.com
-  passkey: ysdxtzfrnnugdqke
+  passkey: hvisqnpnehvifpls
   receiver_email_id:
     - yadav.tara.avnish@gmail.com
     - anishyadav7045075175@gmail.com
